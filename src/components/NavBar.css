@@ -1,0 +1,31 @@
+.navbardiv {
+    height: 40px;
+}
+.btn {
+background-color: white;
+border: solid thin gray;
+border-radius: 20px;
+height: 40px;
+border: solid 2px gray;
+margin-right: 20px;
+}
+li {
+float: left;
+}
+li:hover {
+cursor: pointer;
+}
+input {
+float: right;
+border-radius: 20px;
+border: solid 2px gray;
+height: 40px;
+width: 250px;
+margin-right: 20px;
+}
+.tweet {
+float: right;
+margin-right: 20px;
+border-radius: 20px;
+border: solid 2px gray;
+}
