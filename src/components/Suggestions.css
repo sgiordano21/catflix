@@ -1,13 +1,13 @@
-.content {
+.suggestions {
     width: 200px;
     height: 400x;
     margin: 10px;
-    background-color: lightgrey;
+    background-color: lightgray;
     border: solid 1px red;
-}        
-                  
-.content:hover {
-    background-color: cyan;
+}
+
+.suggestions:hover {
+    background-color: aqua;
 }
 
 .btn {

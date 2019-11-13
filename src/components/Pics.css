@@ -1,0 +1,25 @@
+.pics {
+    margin: 20px;
+    width: 70%;
+    border: solid 1px black;
+}
+
+.pics img {
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+}
+
+.pics h3, p{
+    text-align: center;
+    padding: 10px;
+}
+
+.pics a {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+

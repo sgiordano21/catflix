@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Content.css';
+import './Suggestions.css';
 
-function Content(props){
+function Suggestions(props){
     return(
-    <div className='card content'>
+        <div className='card suggestions'>
         <div className='card-body'>
         <img src={props.imgURL} className='card-img' alt='img'/>
           <h5 className='card-text'>{props.name}</h5>   
@@ -14,9 +14,9 @@ function Content(props){
     );
 }
 
-Content.PropTypes = {
+Suggestions.PropTypes = {
     name: PropTypes.string,
     imgURL: PropTypes.string
   };
 
-  export default Content;
+  export default Suggestions;
