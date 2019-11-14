@@ -1,19 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-
-function Carousel(props){
+function Carousel(){
     return(
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
             <div className="carousel-item active">
-            <img className="d-block w-100" src="https://i.imgur.com/ZuEoiRV.jpg" alt="First slide"/>
+            <img className="d-block w-100" src="https://b3ta.com/images/challenge/catmovies_large.jpg" alt="First slide"/>
             </div>
             <div className="carousel-item">
-            <img className="d-block w-100" src="https://i.imgur.com/ZuEoiRV.jpg" alt="Second slide"/>
+            <img className="d-block w-100" src="https://i.redd.it/p8452bh3ks631.jpg" alt="Second slide"/>
             </div>
             <div className="carousel-item">
-            <img className="d-block w-100" src="https://i.imgur.com/ZuEoiRV.jpg" alt="Third slide"/>
+            <img className="d-block w-100" src="https://i.pinimg.com/originals/18/c3/45/18c345c440a276f7a19661e55776fecb.jpg" alt="Third slide"/>
             </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -28,9 +26,4 @@ function Carousel(props){
     );
 }
 
-Carousel.PropTypes = {
-    name: PropTypes.string,
-    imgURL: PropTypes.string
-  };
-
-  export default Carousel;
+export default Carousel;

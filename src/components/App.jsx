@@ -4,7 +4,7 @@ import './App.css';
 import ContentList from './ContentList';
 import SuggestionsList from './SuggestionsList';
 import MovieCard from './MovieCard';
-import CarouselList from './CarouselList';
+import Carousel from './Carousel';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <div className="container">
         <div>
             <h5>Featured</h5>
-            <CarouselList/>
+            <Carousel/>
           </div>
           <div>
             <h5>Thrillers</h5>
