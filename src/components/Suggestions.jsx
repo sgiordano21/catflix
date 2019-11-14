@@ -8,7 +8,7 @@ function Suggestions(props){
         <div className='card-body'>
         <img src={props.imgURL} className='card-img' alt='img'/>
           <h5 className='card-text'>{props.name}</h5>   
-      <a href='#' className='btn btn-primary'>Watch</a>
+      <a href='https://www.youtube.com/watch?v=FtSd844cI7U' target='_blank' className='btn btn-primary'>Watch</a>
         </div>
     </div>
     );

@@ -6,7 +6,7 @@
     border: solid 1px red;
 }
 
-.suggestions:hover {
+.suggestions:hover {                                                                                                                                                                                                                                                                                                                                                                   
     background-color: aqua;
 }
 
@@ -16,4 +16,4 @@
 
 img {
     height: 200px;
-}
+}                  

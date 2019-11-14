@@ -34,3 +34,7 @@ margin-right: 20px;
 border-radius: 20px;
 border: solid 2px gray;
 }
+
+li {
+    list-style-type: none;
+}

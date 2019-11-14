@@ -4,6 +4,7 @@ import './App.css';
 import ContentList from './ContentList';
 import SuggestionsList from './SuggestionsList';
 import MovieCard from './MovieCard';
+import CarouselList from './CarouselList';
 
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
           <NavBar/>
         <hr/>
         <div className="container">
+        <div>
+            <h5>Featured</h5>
+            <CarouselList/>
+          </div>
           <div>
             <h5>Thrillers</h5>
             <ContentList/>
