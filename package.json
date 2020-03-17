@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "newrelic": "^6.4.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-bootstrap": "^1.0.0-beta.14",
