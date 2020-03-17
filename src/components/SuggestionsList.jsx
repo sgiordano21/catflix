@@ -6,7 +6,7 @@ var suggestionsList = [
     
     {
         name: 'Cats',
-        imgURL: 'https://d1o51r9qdgnnlz.cloudfront.net/static_image/a5dc9e2b-a5bc-441d-ad57-fcebdbae63db/static.jpg'
+        imgURL: 'https://pmcdeadline2.files.wordpress.com/2019/12/cats-2-1.jpg'
     },
 
     {
